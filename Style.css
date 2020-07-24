@@ -1,0 +1,125 @@
+
+nav {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav h1 {
+    margin-left: 4%;
+}
+
+nav a img {
+    height: 1%;
+}
+
+header {
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(115, 75, 211);
+}
+
+header h3 {
+    background-color: rgb(56, 50, 50);
+    color: white;
+    padding: 1% 2%;
+}
+
+#statistics {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.statistic {
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border-left: 0.2em white solid;
+    border-right: 0.2em white solid;
+}
+
+#services h3{
+    text-align: center;
+}
+#services p {
+    text-align: center;
+}
+
+#services {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+}
+
+#services div {
+    height: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 10em;
+    height: 5em;
+    background-color: rgb(243, 197, 243);
+}
+
+#services div :nth-child(2) {
+    background-color: white;
+}
+
+#projects {
+    background-color: black;
+    padding: 10px 100px;
+}
+
+#projects h3 {
+    text-align: center;
+    color: white;
+}
+
+#projects nav ul {
+    list-style: none;
+    margin: auto;
+}
+
+#projects nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+#projects nav ul :nth-child(2) {
+    color: blue;
+}
+
+#projects div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    height: 320px;
+    width: 320px;
+    background-color: yellow;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    
+}
+
+footer {
+    background-color: grey;
+    padding: 5px;
+    margin: 0;
+}
+
+footer p {
+    color: white;
+    margin-left: 80px;
+}
